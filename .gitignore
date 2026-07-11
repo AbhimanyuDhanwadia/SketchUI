@@ -1,0 +1,19 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+
+# Generated Output
+images/
+layout_output.json
+websiteTemp/
+frontend_detected.png
+frontend.png
+
+# MacOS
+.DS_Store
