@@ -93,7 +93,7 @@ def main():
 
     try:
         code = generate_ui_code(layout_path.read_text())
-        Path("/mnt/windows/Users/Admin/Desktop/All/Not_College/Codes/NextJs/linkedin-ai-agent/app/page.tsx").write_text(code[6:-3])
+        Path("generated_ui.jsx").write_text(code[6:-3])
         print("Generated UI written to generated_ui.jsx")
     except Exception as exc:
         print(f"Model invocation failed: {exc}")

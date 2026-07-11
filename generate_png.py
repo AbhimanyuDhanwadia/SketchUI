@@ -589,7 +589,7 @@ class MiniPaint(ctk.CTk):
         print(filename)
         image_path = filename
         image_name = image_path
-        os.chdir("/mnt/windows/Users/Admin/Desktop/All/Not_College/Codes/MachineLearning/Sketch-To-Website/")
+        os.chdir(Path(__file__).resolve().parent)
         image_path = "./images/"+image_path
         
         print("Editing ",image_path)
